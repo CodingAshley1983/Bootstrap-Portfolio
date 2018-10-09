@@ -1,0 +1,51 @@
+
+.body {
+    display:flex;
+    background-color: pink;
+    
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    font-size: 28px;
+
+}
+
+.welcome {
+    background-color: teal;
+    font-size: 26px;
+    color: black;
+
+}
+
+.content {
+    display:flex;
+    justify-content: flex-start;
+  
+
+}
+
+.contact {
+    background-color: black
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.footer {
+    position:sticky;
+    background-color: teal;
+}
+ /* 
+.image {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+} */
